@@ -1,0 +1,25 @@
+{
+  "name": "learn2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install-all": "npm --prefix product-crud-app install && npm --prefix backend install",
+    "build": "npm --prefix product-crud-app run build",
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm --prefix backend start\" \"npm --prefix product-crud-app dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranitha-chowdary/learn2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranitha-chowdary/learn2/issues"
+  },
+  "homepage": "https://github.com/pranitha-chowdary/learn2#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
